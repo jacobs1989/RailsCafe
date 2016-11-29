@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Bulletin.create! title: 'notice'
+Bulletin.create! title: 'news'
+Bulletin.create! title: 'greeting', post_type: 'blog'
+Bulletin.create! title: 'gallery', post_type: 'gallery'

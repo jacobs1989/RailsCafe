@@ -33,6 +33,9 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'font-awesome-rails'
 gem 'acts-as-taggable-on'
+gem 'devise'
+
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
